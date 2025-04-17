@@ -20,3 +20,4 @@ langchain-core
 pypdf
 langgraph
 pillow
+ipython
