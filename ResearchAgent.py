@@ -118,10 +118,10 @@ print("Graph Created")
 #                              "chat_context": [], "results":[],
 #                              "patient_response":"I have a headache and fever. Can you help me?"})
 
-st.title("Chatbot Testing System")
+st.title("Testara")
 
-system_info = st.text_input("System Info", "Medical Assistant trained to perscribe to treat patient diseases and any health related tips and excercises and perscribe medicines to patients.")
-testing_agent = st.text_input("Testing Agent Role", "Patient")
+system_info = st.text_input("System Info", "")
+testing_agent = st.text_input("Testing Agent Role")
 
 if st.button("Start Testing"):
     with st.spinner("Processing queries..."):
