@@ -19,3 +19,4 @@ python-docx
 langchain-core
 pypdf
 langgraph
+pillow
